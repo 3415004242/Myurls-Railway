@@ -3,7 +3,7 @@ FROM nginx
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install --no-install-recommends -y wget && \
-    wget https://github.com/CareyWang/MyUrls/releases/latest/download/linux-amd64.tar.gz && \
+    wget https://github.com/ThekingMX1998/MyUrls/releases/latest/download/linux-amd64.tar.gz && \
     tar -zxvf linux-amd64.tar.gz && \
     chmod +x /myurls/linux-amd64-myurls.service && \
     rm -rf /linux-amd64.tar.gz 
